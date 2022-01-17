@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -36,7 +37,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: ;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 h2 {
@@ -73,7 +74,7 @@ p {
     vertical-align: middle;
 }
 
-.menu{
+.menu {
     list-style: none;
     position: fixed;
     top: 10px;
@@ -82,7 +83,8 @@ p {
     cursor: pointer;
     font-family: monospace;
 }
-.links{
+
+.links {
     float: right;
     color: darkviolet;
     font-size: 20px;
@@ -92,6 +94,16 @@ p {
     padding-right: 10px;
     font-family: 'Cookie', cursive;
 }
-.links: hover{
-    background-color: cadetblue;
+
+.links:hover {
+    background-color: crimson;
+}
+a {
+    text-decoration: none;
+}
+.article:hover{
+    color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
 }
